@@ -15,5 +15,10 @@
         public String Address { get; set; }
 
         public virtual Person Person { get; set; }
+
+        public static String TableName
+        {
+            get { return "Locations"; }
+        }
     }
 }

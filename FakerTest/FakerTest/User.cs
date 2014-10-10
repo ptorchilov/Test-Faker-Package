@@ -9,5 +9,10 @@
         public String UserName { get; set; }
 
         public String DisplayName { get; set; }
+
+        public static String TableName
+        {
+            get { return "Users"; }
+        }
     }
 }
