@@ -11,6 +11,8 @@
 
         public String LastName { get; set; }
 
+        public String CompanyName { get; set; }
+
         public virtual List<Location> Locations { get; set; }
 
         public virtual List<Phone> Phones { get; set; }
